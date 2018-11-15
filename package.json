@@ -1,0 +1,30 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "@material-ui/core": "3.4.0",
+    "@material-ui/icons": "3.0.1",
+    "path-to-regexp": "2.4.0",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "react-router": "next",
+    "react-router-dom": "next",
+    "react-scripts": "2.0.3",
+    "recompose": "0.30.0",
+    "url-join": "4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
