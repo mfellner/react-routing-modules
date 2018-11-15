@@ -134,7 +134,7 @@ const PrimaryNavContainer = ({ classes, modules }) => {
                               );
                               if (secondaryPath === primaryPath) {
                                 secondaryPathsToMatch.push(
-                                  Array.from(
+                                  ...Array.from(
                                     new Set(getModuleRoutes(primaryModules)),
                                   ),
                                 );
